@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="36dp"
+        android:paddingBottom="36dp">
+
+        <Button
+            android:id="@+id/btnSms1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Brama" />
+
+        <Button
+            android:id="@+id/btnSms2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Włącz alarm" />
+
+        <Button
+            android:id="@+id/btnSms3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Wyłącz alarm" />
+
+        <Button
+            android:id="@+id/btnSms4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Garaż" />
+    </LinearLayout>
+</ScrollView>
